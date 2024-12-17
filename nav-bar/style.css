@@ -1,5 +1,5 @@
 body{
-    background-color: #1e1e1e;
+    background-color: white;
 }
 
 body:after{
@@ -8,7 +8,7 @@ body:after{
     height: 0;
     overflow: hidden;
     z-index: -1;
-    content: url(img/facebook-color.png) url(img/instagram-color.png);
+    content: url(../img/instagram-color.png) url(../img/instagram-color.png);
     
 }
 
@@ -69,13 +69,13 @@ body:after{
     display: flex;
     align-items: center;
     column-gap: 20px;
-    cursor:grab;
+    cursor:pointer;
 }
 
 .header-main-sm-fb{
     width: 20px;
     height: 20px;
-    background-image: url(img/facebook.png);
+    background-image: url(../img/facebook.png);
     background-repeat: no-repeat;
     background-size:cover ;
     
@@ -84,15 +84,15 @@ body:after{
 .header-main-sm-in{
     width: 20px;
     height: 20px;
-    background-image: url(img/instagram.png);
+    background-image: url(../img/instagram.png);
     background-repeat: no-repeat;
     background-size:cover ;
 }
 
 .header-main-sm-fb:hover{
-    background-image: url(img/facebook-color.png);    
+    background-image: url(../img/facebook-color.png);    
 }
 
 .header-main-sm-in:hover{
-    background-image: url(img/instagram-color.png);    
+    background-image: url(../img/instagram-color.png);    
 }

@@ -1,0 +1,36 @@
+@font-face {
+    font-family: Atomic;
+    src: url(./atomic/ATOMIC__.TTF);
+}
+
+.absoluto{
+    width:200px;
+    height:200px;
+    background-color: green;
+    position: absolute;
+    top: 20px;
+    left:210px;
+}
+
+.relativo{
+    width:200px;
+    height:200px;
+    background-color: aqua;
+    position: relative;
+    top: 2000px;
+    left:10px;
+}
+
+.sti{
+    width:200px;
+    height:200px;
+    background-color:blueviolet;
+    position: sticky;
+    top: 0px;
+    left:10px;
+}
+p{
+    font-family: Atomic,cursive;
+    font-size: 50px;
+    color:#B4CD02;
+}

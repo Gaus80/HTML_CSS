@@ -1,0 +1,57 @@
+main{
+    width: 100%;
+    height: calc(100vh - 60px);
+    margin-top: 60px;
+    background-image: url(../img/garfield.png), url(../img/fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: 60vh, cover;
+    background-position: bottom, center;
+    margin-bottom: 0;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+main .main-intro h1{
+    font-size: 96px;
+    line-height: 106px;
+}
+
+main  p{
+    font-size: 18px;
+    line-height: 26px;
+}
+
+main a{
+    font-size: 18px;
+    line-height: 26px;
+    background-color: #feb820; 
+    display: block;
+    padding: 7px 20px;
+    width: fit-content;
+    font-family:Atomic,cursive;
+}
+
+ main .main-quotes p{
+    border-left: 4px solid #feb820;
+    padding-left: 20px;
+    margin:40px 0;
+ }
+
+ main .main-intro{
+    position: relative;
+    right:20vh;
+    padding-bottom: 12vh;
+   
+ }
+
+ main .main-quotes {
+    position: relative;
+    left:5vh;
+    
+ }
+
+ main .main-quotes p:nth-child(2){
+    margin-left:40px;
+ }
