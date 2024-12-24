@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+  <title>Survey</title>
+</head>
+
+<body>
+  <header class="titulo">
+    <h1 id="title">Survey Form freeCodeCamp</h1>
+    <p id="description">Encuesta obligatoria freecode </p>
+  </header>
+
+  <form id="survey-form">
+        <div class="datos-container">
+          <label for="name-label" id="name-label">Nombre:</label>
+          <input type="text" id="name" placeholder="Ingresa tu nombre" class="input-texto"required>
+        </div>
+        <div class="datos-container">
+          <label for="email" id="email-label">Email:</label>
+          <input type="email" id="email"  placeholder="Ingresa tu correo"  class="input-texto" required>
+        </div>
+        <div class="datos-container">
+          <label for="number" id="number-label">Edad:</label>
+          <input type="number" id="number" min="10" max="100"  placeholder="Ingresa tu edad"  class="input-texto" required>
+        </div>
+        <div class="datos-container">
+          <label for="dropdown">¿Cuál es su comida favorita?</label>
+          <select  id="dropdown"  class="input-texto">
+            <option value="" disabled selected>(seleccione uno)</option>
+            <option value="pizza">Pizza</option>
+            <option value="hamburguesa">Hamburguesa</option>
+            <option value="pasta">Pasta</option>
+            <option value="otro">Otro</option>
+          </select>
+        </div>
+        <div class="datos-container">
+          <p>¿Recomendarías freeCodeCamp?</p>
+            <label for="radio1"> <input type="radio" id="radio1" name="radio-button" class="inline" value="si" checked > Si</label>
+            <label for="radio2"> <input type="radio" id="radio2" name="radio-button" class="inline" value="no" > No</label>
+        </div>
+        <div class="datos-container">
+          <p>¿Qué es lo más difícil de programar HTML?</p>
+            <label> 
+              <input type="checkbox"  class="inline" value="tag" >
+              Etiquetas</label>
+            <label > 
+              <input type="checkbox" class="inline" value="pos">
+              Posicionamiento</label>
+
+           <label > 
+              <input type="checkbox" class="inline" value="web">
+              Web-Responsive</label>  
+        </div>
+
+        <div class="datos-container">
+          <label for="area">Algún comentario o sugerencia</label>
+          <textarea placeholder="Ecribe aca tus comentarios..." rows="10"></textarea>
+        </div>
+        <input type="submit" value="Submit" id="submit">
+     
+      
+  
+  </form>
+
+
+</body>
+
+</html>
